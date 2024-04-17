@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Background</title>
+    <link rel="stylesheet" href="/atividade-aula17.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Background</h1>
+    </header>
+    <main>
+        O Exercício a seguir faz um resumo de tudo que aprendi sobre imagens e cores de fundo, utilizando a propriedade bacjground em HTML5 e CSS3.
+    </main>
+    <h2>Cores no plano de fundo</h2>
+    <p>De forma geral, existem três maneiras mais simples de preencher uma caixa em HTML, usando <strong>cores sólidas, gradientes</strong> ou <strong>imagens.</strong> Essas formas são representadas a seguir:</p>
+    <div id="q1"></div>
+    <p>Cor Sólida</p>
+    <div id="q2"></div>
+    <p>Gradiente</p>
+    <div id="q3"></div>
+    <p>Imagem</p>
+
+    <h2>Imagens</h2>
+    <p>É possível colocar <strong>imagens</strong> como fundo de uma caixa e configurar suas propriedades de diversas maneiras</p>
+
+    <h3>Background Repeat</h3>
+    <p>Com essa propriedade, é possível definir imagem de fundo irá se <strong>repetir</strong> quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem em si. Por padrão ela sempre vai ser repetida. Essa propriedade possui 4 valores:</p>
+    <div id="q4"></div>
+    <p>repeat</p>
+    <div id="q4"></div>
+    <p>no-repeat</p>
+    <div id="q4"></div>
+    <p>repeat-x</p>
+    <div id="q4"></div>
+    <p>repeat-y</p>
+
+    <h3>Background Position</h3>
+    <p>Além de escolher o nível de repetição do background, também podemos mudar a posição de referência de início das repetições. Por padrão, é considerado o canto esquerdo superior (left top), mas podemos ter várias opções.</p>
+    <div id="q5"></div>
+    <p>left top</p>
+    <div id="q6"></div>
+    <p>center top</p>
+    <div id="q7"></div>
+    <p>right top</p>
+    <div id="q8"></div>
+    <p>left center</p>
+    <div id="q9"></div>
+    <p>center center</p>
+    <div id="q10"></div>
+    <p>right center</p>
+    <div id="q11"></div>
+    <p>left bottom</p>
+    <div id="q12"></div>
+    <p>center bottom</p>
+    <div id="13"></div>
+    <p>right bottom</p>
+
+    <h3>Background Size</h3>
+    <p>Outra coisa que podemos fazer é redimensionar a imagem para forçá-la a caber na caixa. Por padrão, nenhum redimensionamento será aplicado, e a imagem será exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
+    <div id="q14"></div>
+    <p>auto</p>
+    <div id="q15"></div>
+    <p>[x]%</p>
+    <div id="q16"></div>
+    <p>cover</p>
+    <div id="q17"></div>
+    <p>contain</p>
+
+    <p><strong>auto:</strong>A imagem de fundo será aplicada em seu tamanho original.</p>
+    <p><strong>[x]%:</strong> Redimensiona a largura da imagem e faz a altura se adaptar automaticamente.</p>
+    <p><strong>cover:</strong>Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte.</p>
+    <p><strong>contain:</strong>Redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso ocorram alguns eventuais cortes.</p>
+
+    <h3>Background Attachment</h3>
+    <p>A última propriedade que podemos configurar é o vínculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
+    <p><strong>scroll:</strong>(padrão) a imagem de fundo vai rolar junto com o conteúdo.</p>
+    <p><strong>fixed:</strong>A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado (essa propriedade você pode observar no fundo desse site).</p>
+
+    <footer>
+        <p>Esse foi meu aprendizado sobre as <strong>imagens de fundo</strong>.</p>
+    </footer>
+
 </body>
 </html>
