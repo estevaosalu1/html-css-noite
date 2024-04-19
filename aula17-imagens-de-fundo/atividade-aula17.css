@@ -4,14 +4,12 @@
 
 }
 
-p#import{
+#import{
     font-family: 'Source Sans 3';
 }
-*{
-    margin: 10px;
-    padding: 10px;
-}
+
 header{
+
     text-align: center;
     font: normal;
     background-color: rgb(68, 80, 224);
@@ -20,7 +18,7 @@ header{
 
 }
 article{
-
+    padding: 10px;
 }
 body{
     background-image: url(/aula17-imagens-de-fundo/imagens/wallpaper004.jpg);
@@ -30,6 +28,7 @@ main{
 min-width: 300px;
 max-width: 1000px;
 margin: auto;
+padding: 10px;
 
 }
 div.quadrado{
@@ -88,65 +87,121 @@ footer{
     background-image:linear-gradient(rgb(255, 255, 0), rgb(107, 107, 7));
 }
 #q3{
-    background-image: url(/imagens/pattern003.png);
+    background-image: url(/aula17-imagens-de-fundo/imagens/pattern003.png);
 }
 #q4{
-    background-image: url(/imagens/mascote.png);
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
 }
 #q5{
-    background-color: #87CEEB;
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 #q6{
-    background-image:linear-gradient(rgb(255, 255, 0), rgb(107, 107, 7));
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: repeat-x;
 }
 #q7{
-    background-image: url(/imagens/pattern003.png);
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: repeat-y;
 }
 #q8{
-    background-image: url(/imagens/mascote.png);
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 #q9{
-    background-color: #87CEEB;
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
+
 #q10{
-    background-image:linear-gradient(rgb(255, 255, 0), rgb(107, 107, 7));
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
+
 #q11{
-    background-image: url(/imagens/pattern003.png);
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: left center;
+    background-repeat: no-repeat;
+
 }
 #q12{
-    background-image: url(/imagens/mascote.png);
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 #q13{
-    background-color: #87CEEB;
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 #q14{
-    background-image:linear-gradient(rgb(255, 255, 0), rgb(107, 107, 7));
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
 #q15{
-    background-image: url(/imagens/pattern003.png);
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 #q16{
-    background-image: url(/imagens/mascote.png);
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 #q17{
-    background-color: #87CEEB;
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 #q18{
-    background-image:linear-gradient(rgb(255, 255, 0), rgb(107, 107, 7));
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 #q19{
-    background-image: url(/imagens/pattern003.png);
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 #q20{
-    background-image: url(/imagens/mascote.png);
-    background-repeat: repeat;
+    background-image:url(/aula17-imagens-de-fundo/imagens/mascote.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+section ul{
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 1em;
+}
+footer{
+    background-color: #303AA1;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 8px;
 }
