@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 200px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr.destaque{
+    font-weight: bold;
+    background-color: rgba(94, 99, 100, 0.425);
+}
+td.vermelho{
+    color: red;
+    font-weight: bold;
+}
+p{
+    color: red;
+    font-weight: bold;
+    margin: 2px;
+}
