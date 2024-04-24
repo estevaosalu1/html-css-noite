@@ -1,0 +1,14 @@
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 16px;
+}
+th{
+    background-color: yellowgreen;
+}
