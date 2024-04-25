@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e ;
+    color:rgb(68, 80, 224);
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+body{
+    background-color: #238D97
+}
+h2, h3{
+    font-family: Roboto Slab;
+}
+header{
+    font-family: 'Source Sans 3' ;
+}
+table{
+width: 200px;
+border-collapse: collapse;
+}
+th{
+   font-family: roboto slab ; 
+    background-color:#a9a9a9 ;
+}
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+    tr.lsuperior{
+        position: sticky;
+        top: -1px;
+    }

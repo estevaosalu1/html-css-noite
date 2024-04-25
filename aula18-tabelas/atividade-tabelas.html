@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="atividade-tabelas.css">
+</head>
+<body>
+    <header>
+        <h1>Tabelas</h1>
+    </header>
+    <main>
+        <h2>Tabela Simples</h2>
+            <p>Tabelas são um recurso muit importante para a organização dados no geral, em HTML, para criar uma tabela usa-se a tag table e, dentro dela, algumas tags de definição de conteúdo, tais como:</p>
+            <ul>
+                <li>tr (Table Row) - Linha da tabela</li>
+                <li>th (Table Header) - Cabeçalho da tabela</li>
+                <li>td (Table data) - Dado da tabela</li>
+                <p>Uma tabela simples tem geralmente essa aparência:</p>
+            </ul>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nomes</th>
+                            <th>Dados</th>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>Alfredo</td>
+                            <td>Dado 1</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Guilherme</td>
+                            <td>Dado 2</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Larissa</td>
+                            <td>Dado 3</td>
+                        </tr>
+                    </table>
+                </div>
+           <h2>Anatomia de Tabelas</h2>
+           <p>Essa anatomia é utilizada para tabelas grandes e melhora o resultado em site de busca, consiste em adicionar os seguintes elementos na tabela:</p>
+           <ul>
+            <li>caption - Legenda/Descrição</li>
+            <li>thead - Cabeçalho</li>
+            <li>tbody - Corpo</li>
+            <li>tfoot - Rodapé</li>
+           </ul>
+           <p>Todos esses elementos podem conter seus próprios tr, td e th (menos o caption).</p>
+           <p>Independente da ordem que você colocar as tags de anatomia, o navegador sempre vai organizar na ordem correta.</p>
+
+           <h3>Scope</h3>
+           <p>É um atributo de um th que indica para qual direção o título está mostrando os dados, pode ter os valores:</p>
+           <ul>
+            <li>row - Dados em linha</li>
+            <li>col - Dados em coluna</li>
+            <li>colgroup - Dados num conjunto de colunas (para células mescladas)</li>
+            <li>rowgroup - Dados num conjunto de linhas (para células mescladas)</li>
+           </ul>
+           <p>Obs.: Esse atributo é extremamente útil para ajudar o site a ser relevante em sites de busca.</p>
+           <p>Um exemplo de tabela utilizando todos os atributos da anatomia citada a cima deve ser visto a seguir:</p>
+           <table>
+            <thead><!--cabeçalho da tabela-->
+                <tr class="lsuperior">
+                    <th >Boletim</th>
+                 </tr>
+            </thead>
+            <tbody><!--corpo da tabela-->
+                    <tr>
+                        <td>Aluno</td>
+                        <td>Nota</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Dimi</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Gustavo</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Laís</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Rodrigo</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Samira</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Vinícius</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Média</td>
+                        <td>7,2</td>
+                    </tr>
+            </tbody>
+
+        </table>
+</body>
+</html>

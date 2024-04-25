@@ -1,0 +1,17 @@
+body{
+    font-family: calibri, sans-serif;
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(2n-1){
+    background-color: aqua;
+}
+tr.lsuperior{
+    position: sticky;
+    top: -1px;
+}
