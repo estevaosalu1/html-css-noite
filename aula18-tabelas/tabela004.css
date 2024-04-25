@@ -1,0 +1,24 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;}
+
+    table{
+        margin: auto;
+        width: 200px;
+        border-collapse: collapse;}
+        .c1{
+            background-color: rgb(7, 197, 211);
+        }
+        .c2{
+            background-color: rgb(55, 170, 39);
+        }
+        .c3{
+            background-color: rgb(7, 197, 211);
+        }
+        .c4{
+            background-color: rgb(55, 170, 39);
+        }
+        .responsivo{
+            overflow-x: scroll;
+        }

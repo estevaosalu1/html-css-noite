@@ -43,3 +43,10 @@ td, th{
         position: sticky;
         top: -1px;
     }
+.boletim{
+    background-color: #1e1e1e;
+    color: white;
+}
+tr:nth-child(2n){
+    background-color: rgb(114, 145, 145);
+}

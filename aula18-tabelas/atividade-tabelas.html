@@ -42,6 +42,7 @@
                             <td>Dado 3</td>
                         </tr>
                     </table>
+                    <hr>
                 </div>
            <h2>Anatomia de Tabelas</h2>
            <p>Essa anatomia é utilizada para tabelas grandes e melhora o resultado em site de busca, consiste em adicionar os seguintes elementos na tabela:</p>
@@ -66,14 +67,16 @@
            <p>Um exemplo de tabela utilizando todos os atributos da anatomia citada a cima deve ser visto a seguir:</p>
            <table>
             <thead><!--cabeçalho da tabela-->
-                <tr class="lsuperior">
-                    <th >Boletim</th>
-                 </tr>
+
+                    <caption class="boletim">
+                        Boletim
+                    </caption>
+
             </thead>
             <tbody><!--corpo da tabela-->
                     <tr>
-                        <td>Aluno</td>
-                        <td>Nota</td>
+                        <td style="font-weight: bold;">Aluno</td>
+                        <td style="font-weight: bold;">Nota</td>
                     </tr>
                     <tr>
                         <td>Ana</td>
@@ -104,11 +107,41 @@
                         <td>8</td>
                     </tr>
                     <tr>
-                        <td>Média</td>
-                        <td>7,2</td>
+                        <td style="font-weight: bold;">Média</td>
+                        <td style="font-weight: 900;">7,2</td>
                     </tr>
             </tbody>
 
         </table>
+        <hr>
+        <h2>Mesclagem de Células</h2>
+        <p>Mesclar células em uma tabela é algo bem comum e importante, em HTML, é necessário colocar os seguintes atributos nas tags th ou td:</p>
+        <ul>
+            <li>colspan - Mesclagem em coluna</li>
+            <li>rowspan - Mesclagem em linha</li>
+        </ul>
+        <p>Depois, adiciona-se o valor que representa o número de células que ela irá ocupar. Um exempço pode ser visto a seguintes</p>
+        <table>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+        </table>
+<hr>
+<h2>Estilização de Colunas</h2>
+<p>Para especificar uma coluna em uma tabela HTML, usa-se a tag colgroup, ela é uma tag que define as colunas em uma tabela, cada coluna é representada por uma tag col que fica dentro de colgroup, isso facilita na hora de estilizar colunas com CSS.</p>
+<p>A tag col possui o parâmetro span que especifica quantas colunas uma mesma tag col pode representar.</p>
+<p>Um exemplo de tabela com colunas estilizadas:</p>
 </body>
 </html>
