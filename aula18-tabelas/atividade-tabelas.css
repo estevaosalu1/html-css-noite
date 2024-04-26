@@ -47,6 +47,15 @@ td, th{
     background-color: #1e1e1e;
     color: white;
 }
-tr:nth-child(2n){
+.zebrada tr:nth-child(2n){
     background-color: rgb(114, 145, 145);
+}
+.responsivo{
+    overflow-x: scroll;
+}
+.c1, .c4{
+    background-color: #4c2691;
+}
+.c2, .c3{
+    background-color: #1e7260;
 }

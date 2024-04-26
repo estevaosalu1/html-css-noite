@@ -65,7 +65,7 @@
            </ul>
            <p>Obs.: Esse atributo é extremamente útil para ajudar o site a ser relevante em sites de busca.</p>
            <p>Um exemplo de tabela utilizando todos os atributos da anatomia citada a cima deve ser visto a seguir:</p>
-           <table>
+           <table class="zebrada">
             <thead><!--cabeçalho da tabela-->
 
                     <caption class="boletim">
@@ -143,5 +143,154 @@
 <p>Para especificar uma coluna em uma tabela HTML, usa-se a tag colgroup, ela é uma tag que define as colunas em uma tabela, cada coluna é representada por uma tag col que fica dentro de colgroup, isso facilita na hora de estilizar colunas com CSS.</p>
 <p>A tag col possui o parâmetro span que especifica quantas colunas uma mesma tag col pode representar.</p>
 <p>Um exemplo de tabela com colunas estilizadas:</p>
+<div class="responsivo">
+    <table>
+     <colgroup>
+     <col class="c1">
+     <col class="c2">
+     <col class="c3">
+     <col class="c4">
+     </colgroup>
+
+     <tr>
+         <th>Nome</th>
+         <th>Idade</th>
+         <th>Sexo</th>
+         <th>Profissão</th>
+     </tr>
+     <tr>
+         <td class="">Ana Maria</td>
+         <td>F</td>
+         <td>25</td>
+         <td>Jornalista</td>
+     </tr>
+     <tr>
+         <td>Claúdio</td>
+         <td>M</td>
+         <td>28</td>
+         <td>Programador</td>
+     </tr>
+     <tr>
+         <td>Gustavo</td>
+         <td>M</td>
+         <td>42</td>
+         <td>Professor</td>
+     </tr>
+     <tr>
+         <td>Maria</td>
+         <td>F</td>
+         <td>39</td>
+         <td>Médica</td>
+     </tr>
+    </table>
+</div>
+
+<h2>Responsividade</h2>
+<p>Por último, també é possível deixar uma tabela larga responsiva colocando-a dentro de uma div e usando propriedade CSS overflow-x </p>
+<div class="responsivo">
+    <table class="zebrada">
+        <tr>
+            <th>Produto</th>
+            <th>Janeiro</th>
+            <th>Fevereiro</th>
+            <th>Março</th>
+            <th>Abril</th>
+            <th>Maio</th>
+            <th>Junho</th>
+            <th>Julho</th>
+            <th>Agosto</th>
+            <th>Setembro</th>
+            <th>Outubro</th>
+            <th>Novembro</th>
+            <th>Dezembro</th>
+        </tr>
+        <tr>
+            <td>TV 40"</td>
+            <td>01</td>
+            <td>07</td>
+            <td>12</td>
+            <td>12</td>
+            <td>10</td>
+            <td>05</td>
+            <td>02</td>
+            <td>01</td>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+            <td>05</td>
+        </tr>
+        <td>TV 40"</td>
+        <td>01</td>
+        <td>07</td>
+        <td>12</td>
+        <td>12</td>
+        <td>10</td>
+        <td>05</td>
+        <td>02</td>
+        <td>01</td>
+        <td>03</td>
+        <td>04</td>
+        <td>05</td>
+        <td>05</td>
+    </tr>
+    <td>TV 40"</td>
+    <td>01</td>
+    <td>07</td>
+    <td>12</td>
+    <td>12</td>
+    <td>10</td>
+    <td>05</td>
+    <td>02</td>
+    <td>01</td>
+    <td>03</td>
+    <td>04</td>
+    <td>05</td>
+    <td>05</td>
+</tr>
+<td>TV 40"</td>
+<td>01</td>
+<td>07</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>05</td>
+<td>02</td>
+<td>01</td>
+<td>03</td>
+<td>04</td>
+    <td>05</td>
+    <td>05</td>
+</tr>
+<td>TV 40"</td>
+<td>01</td>
+<td>07</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>05</td>
+<td>02</td>
+<td>01</td>
+<td>03</td>
+<td>04</td>
+    <td>05</td>
+    <td>05</td>
+</tr>
+<td>TV 40"</td>
+<td>01</td>
+<td>07</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>05</td>
+<td>02</td>
+<td>01</td>
+<td>03</td>
+<td>04</td>
+    <td>05</td>
+    <td>05</td>
+</tr>
+    </table>
+</div>
+<hr>
 </body>
 </html>
