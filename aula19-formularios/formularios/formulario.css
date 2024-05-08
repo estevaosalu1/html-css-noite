@@ -8,3 +8,9 @@ div{
 div.div{
     display: flex;
 }
+ul{
+    list-style: none;
+}
+div.div{
+    text-align: center;
+}

@@ -32,33 +32,42 @@
         </div>
     </div>
     <main>
-        <p>Formulário de Inscrição</p>
-        <p>Nome Completo</p>
-        <input type="email">
-        <p>Email</p>
-        <input type="email">
-        <p>Telefone</p>
-        <input type="email">
-        <p>Data de Nascimento</p>
-        <input type="date">
-        <p>O que você quer aprender?</p>
-            <input type="radio"> Front-End
-            </input>
-            <input type="radio">Data Science</input>
-            <input type="radio">Mobile</input>
-            <input type="radio">Inteligência Artificial</input>
-
-        <p>Disponibilidade para assistir as aulas ao vivo</p>
-        <input type="checkbox">Manhã</input>
-        <input type="checkbox">Tarde</input>
-        <input type="checkbox">Noite</input>
-        <p>Crie uma senha númerica com quatro dígitos</p>
-        <input type="password">
+        <fieldset>
+            <legend>Formulário de Inscrição</legend>
+            <p>
+                <label for="idnome">Nome Completo</label></p>
+                <p><input type="text" name="nome" id="idnome">
+            </p>
+            
+                <p><label for="idemail">Email</label></p>
+                <p><input type="email" name="email" id="idemail"></p>
+            
+            
+                <p><label for="idtelefone">Telefone</label></p>
+                <p><input type="number" name="telefone" id="idtelefone"></p>
+            
+            
+                <p><label for="iddata">Data de Nascimento</label></p>
+                <p><input type="date" name="data" id="iddata"></p>
+            
+            <label for="aprender">O que você quer aprender?</label>
+                <p><input type="radio" name="front" id="idfront">Front-End</p>
+                <p><input type="radio" name="data" id="iddata">Data Science</p>
+                <p><input type="radio" name="mobile" id="idmobile">Mobile</p>
+                <p><input type="radio" name="ia" id="idia">Inteligência Artificial</p>
+            <label for="aulas">Disponibilidade para assistir as aulas ao vivo</label>
+            <p><input type="checkbox" name="manhã" id="idmanha">Manhã</p>
+            <p><input type="checkbox" name="tarde" id="idtarde">Tarde</p>
+            <p><input type="checkbox" name="noite" id="idnoite">Noite</p>
+            <label for="senha">Crie uma senha númerica com quatro dígitos</label>
+            <p><input type="password" name="senha" id="idsenha"></p>
+            <div class="div">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
     </main>
-    <div class="div">
-        <p>Enviar</p>
-        <p>Limpar</p>
-    </div>
+
 
 </body>
 </html>
