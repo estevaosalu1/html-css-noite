@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.colunas{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+
+}
+div.coluna1{
+    background-color: chartreuse;
+    width: 200px;
+    display: flex;
+    justify-content: center; /*alinhamento hotizontal*/
+    align-items: end;/*alinhamento vertical*/
+}
+div.coluna2{
+    background-color: yellow;
+    width: 200px;
+    display: flex;
+    justify-content: center; /*alinhamento hotizontal*/
+}
