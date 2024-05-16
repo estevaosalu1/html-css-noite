@@ -15,11 +15,14 @@ header a{
 main{
     background-color: rgb(255, 228, 196);
     max-width: 800px;
+    padding: 5px;
+    justify-content: center;
  
 }
 section{
     background-color: white;
-
+    max-width: 795px ;
+    box-shadow:10px;
 }
 section article{
     background-color:rgb(255, 228, 196) ;
@@ -27,9 +30,12 @@ section article{
 }
 article{
     background-color: rgb(255, 228, 196);
+    width: 790px ;
+   justify-content: center;
 }
 article aside{
     background-color: rgb(222, 184, 135);
+    width: 780px;
 
 }
 footer{
